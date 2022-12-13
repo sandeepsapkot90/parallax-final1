@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+
+.video {
+  position: relative;
+}
+.video > div {
+  position: absolute;
+  top: 200px;
+  font-size: 3rem;
+  color: orange;
+  background: rgba(0, 0, 0, 0.604);
+  left: 30vw;
+  padding: 2rem;
+  border-radius: 10px;
+  color: orange;
+  font-style: italic;
+}
+
+.nav {
+  background: brown;
+  color: white;
+  position:sticky;
+  top:0px
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width:80%
+  margin:auto;
+  font: size 24px;
+  
+}
+
+.container ul {
+  display: flex;
+  list-style:none;
+  justify-content:space between;
+  align-items: center;
+  
+}
+
+.para {
+  background: rgb(20, 16, 16);
+  color: rgba(255, 255, 255, 734);
+  padding: 2rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  min-height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  background: url(images/image1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img2 {
+  background: url(images/image2.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img3 {
+  background: url(images/image3.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img4 {
+  background: url(images/image3.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  background: rgba(0, 0, 0, 0.742);
+  color: rgb(220, 122, 3);
+  font-size: 3rem;
+  font-family: Script;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
